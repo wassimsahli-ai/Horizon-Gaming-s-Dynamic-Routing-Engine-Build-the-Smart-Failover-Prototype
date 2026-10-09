@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const API = "http://localhost:3001";
+const API = "https://horizon-gaming-s-dynamic-routing-engine.onrender.com";
 const socket = io(API, { autoConnect: false });
 
 function money(amount, currency) {
